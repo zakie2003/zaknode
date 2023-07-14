@@ -1,0 +1,100 @@
+*{
+      
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins';
+  }
+.gath img,a{
+    position: relative;
+    margin-left: 5px;
+  }
+  .logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: relative;
+  }
+  .header{
+    background-image: linear-gradient(to right, #30cfd0 0%, #5d00cf 100%);
+     width: 100%;
+     font-size: 24px;
+
+  }
+  .slide_op{
+    position: relative;
+    list-style: none;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .slide_op div{
+    font-size: 25px;
+  }
+  .slide_head{
+    position: relative;
+    font-size: 30px;
+    left: 30px;
+  }
+  .navbar-brand{
+    font-size: 24px;
+  }
+  .nav_op{
+    font-size: 50px;
+    position: relative;
+    margin-left: -25px;
+    background-color: black;
+    border-radius: 8px;
+    color: aliceblue;
+    transition: 0.5s;
+  }
+  .nav_op:hover{
+    background-color: rgb(0, 136, 255);
+    color: aliceblue;
+  }
+  .nav_op .btn{
+    color: aliceblue;
+  }
+
+  .resumee{
+
+    background-color: black;
+       color: white;
+       font-style: none;
+       transition: 0.3s;
+     }
+     .resumee a{
+       color: white;
+       text-decoration: none;
+     }
+     .resumee a i{
+       margin-top: 4px;
+       margin-right: 10px;
+     }
+     .resumee:hover{
+       background-color: white;
+       
+     }
+     .resumee a:hover{
+       color: black;
+     }
+     .slide_base{
+        background-color: black;
+        color: white;
+    }
+    .btn1{
+        width:60px;
+        height: 50px;
+        font-size: 30px;
+        background: none;
+        border: none;
+        color: black;
+      }
+      .btn1:hover{
+        background-color: black;
+      }
+
+
+
+
+
+
+
