@@ -10,18 +10,24 @@ const router=express.Router();
 
 app.set("view engine","ejs");
 
+const port=process.env.PORT ||3000;
+
 const pubDirectory = path.join(__dirname,"./public");
 
 app.use(express.static(pubDirectory));
 
-router.get("/",(req,res,next)=>{
+app.get("/",(req,res,next)=>{
     res.render("index.ejs");
 })
 
-router.post("/proj",(req,res,next)=>{
+app.post("/proj",(req,res,next)=>{
     res.render("project.ejs");
 })
 
-app.use("/.functions/homepage",router);
 
 module.exports.handler=serverless(app)
+
+
+app.listen(port,()=>{
+    console.log("Server started");
+})
