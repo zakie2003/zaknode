@@ -5,7 +5,6 @@
   scroll-behavior: smooth;
 
 }
-<<<<<<< HEAD
 body{
   background-color:#2B2B2B;
 }
@@ -14,8 +13,30 @@ body{
 }
 .header{
   background-image: linear-gradient(to right, #00C9A7,#00C9A7 100%);
-=======
-  .btn1{
+   width: 100%;
+   font-size: 24px;
+
+}
+.slide_base{
+  background-color: #000000;
+  color: white;
+}
+.t3-off-canvas {
+  background: #262626;
+  color: #3c3c3c;
+}
+
+body{
+  background-color:#2B2B2B;
+}
+.crl{
+  background-color: #2B2B2B;
+}
+.header{
+  background-image: linear-gradient(to right, #00C9A7,#00C9A7 100%);
+
+.btn1{
+    width:60px;
     height: 50px;
     font-size: 30px;
     background: none;
@@ -80,45 +101,45 @@ body{
     color: aliceblue;
   }
 
-  .container{
-    background-color: white;
-  }
-  .logo{
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    position: relative;
-  }
-  .my_pic{
+.container{
+  background-color: white;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  position: relative;
+}
+.my_pic{
 
-    position: relative;
-    margin-top: 20px;
-    margin-right: 22px;
-    height: 230px;
-    width: 240px;
-    margin-bottom: 66px;
-  }
+  position: relative;
+  margin-top: 20px;
+  margin-right: 22px;
+  height: 275px;
+  width: 280px;
+  margin-bottom: 66px;
+}
 
-  .gath img,a{
-    position: relative;
-    margin-left: 5px;
-  }
-  .col h1{
-    margin: 30px;
-    color: black;
-    font-size: 30px;
-  }
-  .img2{ 
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 10px;
-    width: 100%;
-    height: 200px;
-    background-color: white;
-  }
-  .col h2{
-    color: black;
-    margin-top: 30px;
+.gath img,a{
+  position: relative;
+  margin-left: 5px;
+}
+.col h1{
+  margin: 30px;
+  color: black;
+  font-size: 30px;
+}
+.img2{ 
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  background-color: #2B2B2B;
+}
+.col h2{
+  color: black;
+  margin-top: 30px;
 
     margin-bottom: 60px;
     font-size: 20px
@@ -159,6 +180,8 @@ body{
   .f1,.f2,.f3,.f4{
     margin-top: 45px;
     margin-bottom: 45px;
+    margin-left: 70px;
+    margin-left: 70px;
     font-size: 30px;
     height: 60px;
     width: 60px;
@@ -167,15 +190,15 @@ body{
   }
   .f1:hover{
 
-    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    color: white;
-  }
-  .f2:hover{
-    
-    background-color: rgb(10, 102, 194);
-    color: white;
-  }
-  .f3:hover{
+  background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: white;
+}
+.f2:hover{
+  
+  background-color: rgb(10, 102, 194);
+  color: white;
+}
+.f3:hover{
 
     background-color: #6e5494;
     color: white;
@@ -185,138 +208,150 @@ body{
     color: red;
   }
   .foot h2{
+    margin-left: 200px;
   }
   .resumee{
 
- background-color: black;
-    color: white;
-    font-style: none;
-    transition: 0.3s;
+background-color: black;
+  color: white;
+  font-style: none;
+  transition: 0.3s;
+}
+.resumee a{
+  color: white;
+  text-decoration: none;
+}
+.resumee a i{
+  margin-top: 4px;
+  margin-right: 10px;
+}
+.resumee:hover{
+  background-color: white;
+  
+}
+.resumee a:hover{
+  color: black;
+}
+.tag{
+  
+  text-align: left;
+}
+.a{
+  background-color: #000000;
+  color: white;
+  width: 100px;
+}
+.b1{
+  
+  border-radius: 6px;
+  background-color: #845EC2;
+}
+.b2{
+  border-radius: 6px;
+  background-color: #845EC2;
+}
+.b3{
+ border-radius: 6px;
+  background-color: #845EC2;
+}
+#b4{
+  border-radius: 6px;
+  transition: 3s;
+  background-color: #845EC2;
+}
+#b5{
+  border-radius: 6px;
+ background-color: #845EC2;
+}
+@keyframes ani{
+  0%{
+    width: 0;
   }
-  .resumee a{
-    color: white;
-    text-decoration: none;
+  100%{
+    width: 100%;
   }
-  .resumee a i{
-    margin-top: 4px;
-    margin-right: 10px;
-  }
-  .resumee:hover{
-    background-color: white;
-    
-  }
-  .resumee a:hover{
-    color: black;
-  }
-  .tag{
-    
-    text-align: left;
-  }
-  .a{
-    background-color: #000000;
-    color: white;
-    width: 100px;
-  }
-  .b1{
-    
-    border-radius: 6px;
-    background-color: #0c7bfa;
-  }
-  .b2{
-    border-radius: 6px;
-    background-color: #0c7bfa;
-  }
-  .b3{
-   border-radius: 6px;
-    background-color: #0c7bfa;
-  }
-  #b4{
-    border-radius: 6px;
-    transition: 3s;
-    background-color: #0c7bfa;
-  }
-  #b5{
-    border-radius: 6px;
-   background-color: #0c7bfa;
-  }
-  @keyframes ani{
-    0%{
-      width: 0;
-    }
-    100%{
-      width: 100%;
-    }
-    
-    
-  }
-  .emp{
+  
+  
+}
+.emp{
 
-  }
-  .hidden{
-    opacity: 0;
-    transition: 1.5s all;
-    
-  }
-  .show{
-    opacity: 1;
-  }
-  .hidden1{
-    width:0;
-    transition: 1.5s all;
-  }
-  .show1{
-    width: 70%;
-  }
-  .hidden2{
-    width: 0;
-    transition: 1.5s all;
-  }
-  .show2{
-    width: 90%;
-  }
-  .hidden3{
-    width: 0;
-    transition: 2s all;
-  }
-  .show3{
-    width:95%
-  }
-  .hidden4{
-    width: 0;
-    transition: 2s all;
-  }
-  .show4{
-    width: 90%;
-  }
-  .hidden5{
-    width: 0;
-    transition: 2s all;
-  }
-  .show5{
-    width: 50%;
-  }
-  .con{
-    text-decoration: none;
-  }
-  .colp{
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .coltag{
-    position: relative;
-    padding-top: 20px;
-  }
-  #spinner_wrapper{
-   z-index: 9999;  
-   background-color: #000000; 
-   position: fixed;
-   top: 0;
-   left: 0;
->>>>>>> 0e6627e514666c99255d44b323b07cd5779fd015
+}
+.hidden{
+  opacity: 0;
+  transition: 1.5s all;
+  
+}
+.show{
+  opacity: 1;
+}
+.hidden1{
+  width:0;
+  transition: 1.5s all;
+}
+.show1{
+  width: 70%;
+}
+.hidden2{
+  width: 0;
+  transition: 1.5s all;
+}
+.show2{
+  width: 90%;
+}
+.hidden3{
+  width: 0;
+  transition: 2s all;
+}
+.show3{
+  width:95%
+}
+.hidden4{
+  width: 0;
+  transition: 2s all;
+}
+.show4{
+  width: 90%;
+}
+.hidden5{
+  width: 0;
+  transition: 2s all;
+}
+.show5{
+  width: 50%;
+}
+.con{
+  text-decoration: none;
+}
+.colp{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.coltag{
+  position: relative;
+  padding-top: 20px;
+}
+#spinner_wrapper{
+ z-index: 9999;  
+ background-color: #000000; 
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 20px;
+ transition: 0.5s;
+}
+.spinner-border{
+  height: 60px;
+  width: 60px;
+}
+
    width: 100%;
    font-size: 24px;
 
-<<<<<<< HEAD
 }
 .slide_base{
   background-color: #000000;
@@ -646,8 +681,3 @@ background-color: black;
 .d69{
     display:none;
 }
-=======
-  .d69{
-      display:none;
-  }
->>>>>>> 0e6627e514666c99255d44b323b07cd5779fd015
