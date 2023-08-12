@@ -36,12 +36,14 @@ body{
   background-image: linear-gradient(to right, #00C9A7,#00C9A7 100%);
 
 .btn1{
-    width:60px;
-    height: 50px;
-    font-size: 30px;
+
+    font-size: 20px;
     background: none;
     border: none;
-    color: black;
+    background-color: #845EC2;
+    color: white;
+    font-weight: bold;
+    
   }
   .btn1:hover{
     background-color: black;
